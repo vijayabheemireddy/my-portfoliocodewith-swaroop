@@ -1,41 +1,78 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vijayabheemireddy's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</html>
+    <title>My portfolio</title>
+</head>
 <body>
     <header>
-        <h1>Vijayabheemireddy's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <h1>Welcome to my portfolio</h1>
+    <a href=""><button>About</button></a>
+    <a href=""><button>Skills</button></a>
+    <a href=""><button>Projects</button></a>
+    <a href=""><button>Contact</button></a>
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Vijayabheemireddy, a passionate software developer with experience in web development, mobile app development, and machine learning. I enjoy creating innovative solutions and learning new technologies.</p>
+    <br>
+    <main>
+        <section id="About">
+    <img src="vijaya8.jpg" alt="vijayabheemireddy" width="100px" height="100px">
+    <p>I am passionate web developer with a focus on front-end techologies. <br> <br> I am currently persuing B.tech in Pydah College of Engineering in kakinada. <br><br> I have learnt Web Development from<br> Code with Swaroop.<br><br> You can <b>Click here</b> to checkout What I have learnt in HTML,CSS,JS. </p>
     </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: Personal Blog</h3>
-            <p>A personal blog built with React and Node.js, where I share my thoughts on technology and programming.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2: E-commerce Website</h3>
-            <p>An e-commerce website developed using Django, featuring user authentication, product listings, and a shopping cart.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:vijayabheemireddy@example.com">vijayabheemireddy@example.com</a></p>
+    <section id="Skills">
+    <h1>My Skills</h1>
+    <ol>
+        <li>Python Basics</li>
+        <li>HTML Bascis</li>
+        <li>CSS Basics</li>
+        <l>iJavaScript Basics</li>
+        </ol>
+        </section>
+        <section id="my projects">
+        <h1>My projects</h1>
+        <table border="1">
+        <tr>
+            <th>Projects</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Protfolio website</td>
+            <td>I have built a portfolio website by using HTML,CSS & Javascript</td>
+        </tr>
+        <tr>
+            <td>Python simple calculator</td>
+            <td>I have built a simple calculator in the course by code with swaroop</td>
+        </tr>
+        </table>
+        </section>
+        <section id="contact me">
+    <h1>Contact Me</h1> 
+    <form action="">
+    <p>Feel free to get in touch with me using the form below:</p> 
+    <label for="">Name:</label> 
+    <input type="text" required > 
+    <br>
+    <br>
+    <label for="">E-mail:</label>
+    <input type="e-mail" required>
+    <br><br>
+    <label for="">Choose Your gender:</label>
+    <input type="radio" value="male" name="gender">
+    <label for="">Male</label>
+    <input type="radio" value="Female" name="gender">
+    <label for="">Female</label>
+    <br><br>
+    <label for="">Selectyour interests:</label>
+    <input type="checkbox" value="coding" name="skills">
+     <label for="">Coding</label>
+    <input type="checkbox" value="Reading" name="Skills">
+    <label for="">Reading</label>
+    <br><br>
+    <label for="">Bio(up to 200 characters):</label>
+    <input type="text">
+    <br><br>
+    <button>submit</button>
+   </form>
+   </section>
+   </main>
+   <footer>@ 2026 my portfolio</footer>
+</body>
+</html>
