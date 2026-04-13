@@ -1,15 +1,6 @@
-h1{
-    color:red;
-}
-p{
-    color:blue;
-}
 body{
-    background-color: aqua;
+    margin:0;
 }
-form{
-    color:yellow;
-}
-button{
-    color:palevioletred;
+header{
+    background-color:#2196F3;
 }

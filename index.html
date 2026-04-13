@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
     <title>My portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <header>
     <h1>Welcome to my portfolio</h1>
-    <a href=""><button>About</button></a>
-    <a href=""><button>Skills</button></a>
-    <a href=""><button>Projects</button></a>
-    <a href=""><button>Contact</button></a>
-    </header>
-    <br>
+    <div>
+    <a href="#About"><button>About</button></a>
+    <a href="#Skills"><button>Skills</button></a>
+    <a href="#my projects"><button>Projects</button></a>
+    <a href="#contact me"><button>Contact</button></a>  
+</div>
+ </header>
     <main>
         <section id="About">
-    <img src="vijaya8.jpg" alt="vijayabheemireddy" width="100px" height="100px">
+            <h1>Vijaya bheemireddy</h1>
+    <img src="mypic.jpeg" alt="vijayabheemireddy" width="100px" height="100px">
     <p>I am passionate web developer with a focus on front-end techologies. <br> <br> I am currently persuing B.tech in Pydah College of Engineering in kakinada. <br><br> I have learnt Web Development from<br> Code with Swaroop.<br><br> You can <b>Click here</b> to checkout What I have learnt in HTML,CSS,JS. </p>
     </section>
     <section id="Skills">
@@ -23,7 +27,7 @@
         <li>Python Basics</li>
         <li>HTML Bascis</li>
         <li>CSS Basics</li>
-        <l>iJavaScript Basics</li>
+        <li>JavaScript Basics</li>
         </ol>
         </section>
         <section id="my projects">
@@ -69,10 +73,12 @@
     <label for="">Bio(up to 200 characters):</label>
     <input type="text">
     <br><br>
-    <button>submit</button>
+    <button class="submit">submit</button>
    </form>
    </section>
    </main>
+   <a href="">
+   <button class="fixed">top</button></a>
    <footer>@ 2026 my portfolio</footer>
 </body>
 </html>

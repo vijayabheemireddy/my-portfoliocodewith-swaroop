@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes bounce{
+                0%{
+                    transform:translatey(0vh);
+                }
+                50%{
+                    transform:translatey(70vh);
+                }
+                90%{
+                    transform:translatey(100vh);
+                }
+                100%{
+                    transform:translatey(45vh);
+                }
+            }
+        button{
+            background-color: blue;
+            color:white;
+            border:none;
+            height:50px;
+            width:50px;
+            border-radius: 50%;
+            transition: all 1s linear 0.5;
+            animation:bounce 2s ease 0s infinite;
+        }
+        button:hover{
+            background-color: aqua;
+        
+        }
+    </style>
 </head>
 <body>
-    <h1 >This is heading 1</h1>
-    <h1 >This is heading 2</h1>
-    <h1>This is heading 5</h1>
-    <h1>This is heading 4</h1>
-    <h1>This is heading 3</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sit, error dolorem vitae animi voluptate tempore inventore enim ratione, adipisci esse incidunt, minus maxime perspiciatis harum ex! Est, totam esse.</p>
-    <form action>
-        <label for="">name:</label>
-        <input type="text">
-        <br><br>
-        <button>submit</button>
-    </form>
-    <br>
-    <br>
-    <button>reset</button>
+    <button>button</button>
 </body>
 </html>
